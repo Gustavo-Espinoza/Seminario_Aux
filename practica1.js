@@ -1,7 +1,5 @@
-//PREGUNTA 1 FUNCTIONS
-function square(number){
-    return number*number
-}
-let resultado=square(10)
+//PREGUNTA 2 ARROW FUNCTIONS
+const divideByTwo=(num)=>num/2;
+let resultado=divideByTwo(50)
 document.write(resultado)
 console.log(resultado)
