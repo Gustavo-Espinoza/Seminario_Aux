@@ -1,5 +1,8 @@
-//PREGUNTA 2 ARROW FUNCTIONS
-const divideByTwo=(num)=>num/2;
-let resultado=divideByTwo(50)
-document.write(resultado)
-console.log(resultado)
+//PREGUNTA 3 OBJETS
+let Student={
+    firstName:"Gustavo",
+    lastName: "Espinoza",
+    age:"22",
+    hubby: "Play games"
+}
+console.log(Student)
