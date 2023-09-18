@@ -1,10 +1,5 @@
-//PREGUNTA 6 STRING TEMPLATE
-const name="Gustavo";
-const firstName="Jamie";
-const lastName="Espinoza";
-const age="22";
-const hubby="jugar juegos";
-
-let frase=`La frase generada es: <b>Yo</b> ${name} ${firstName}
- ${lastName} con edad ${age} tengo el hobby de ${hubby}`
-document.write(frase)
+//PREGUNTA 7 OPERATOR TERNARY
+const Edad = 20;
+const Status = (Edad >= 18) ? "El es MAYOR" : "El es MENOR"
+console.log(Status)
+document.write(Status)
